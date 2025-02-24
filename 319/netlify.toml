@@ -1,0 +1,11 @@
+[build]
+  publish = "." # This is the directory to deploy (root folder)
+  command = "echo 'No build step needed'" # No build command (for static sites)
+
+[context.production.environment]
+  NODE_VERSION = "16"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
