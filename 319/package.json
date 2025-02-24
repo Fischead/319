@@ -1,0 +1,19 @@
+{
+  "name": "Bruce21.com",
+  "version": "1.0.0",
+  "description": "My personal portfolio website for Netlify deployment.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step needed'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
